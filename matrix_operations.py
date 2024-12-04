@@ -21,7 +21,7 @@ def multiplication(arr1 , arr2):
         print("The number of columns in first matrix and number of rows in second matrix are not the same and hence matrix multiplication is not possible here")
     
     else:
-        arr = np.empty((n1[0] , n2[1]))
+        arr = np.zeros((n1[0] , n2[1]))
         for i in range (0,n1[0]):
             for j in range (0,n2[1]):
                 for k in range (0,n1[1]):
